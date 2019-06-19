@@ -1,0 +1,5 @@
+<%= render "shared/jumbotron", header: "New Post", tag_line: "", alignment: "text-center" %>
+
+<%= render 'form', post: @post, user: @user %>
+
+<%= link_to 'Back', posts_path %>

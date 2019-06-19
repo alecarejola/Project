@@ -1,0 +1,22 @@
+<%= render "shared/jumbotron", header: "Corn Posts", tag_line: "", alignment: "text-center" %>
+<p id="notice"><%= notice %></p>
+
+
+<% @posts.each do |post| %>
+  <div class=form-group>
+    <h1><%= post.title %></h1>
+    <h6>by User ID: <%= post.user_id %><span></h6>
+    <%= link_to 'Show Post', post %>
+    <%= link_to 'Delete Post', post, method: :delete, data: { confirm: 'Are you sure?' } %>
+  </div>
+  <div>
+  <%= post.post %>
+  </div>
+
+<% end %>
+
+<br>
+<br>
+<br>
+
+<%= link_to 'New Post', new_post_path %>
