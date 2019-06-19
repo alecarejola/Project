@@ -1,9 +1,14 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+<<<<<<< HEAD
 ruby '2.5.5'
 gem 'bcrypt'
 gem 'wdm', '~> 0.1.0'
+=======
+ruby '2.5.3'
+gem 'bcrypt'
+>>>>>>> 5f7b8ef7371d5839f326f56d498683d1e7daaa39
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
@@ -36,8 +41,12 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
+<<<<<<< HEAD
 gem 'bootsnap', '>= 1.4.4', require: false
 #gem 'bootsnap', require: false
+=======
+gem 'bootsnap', '>= 1.1.0', require: false
+>>>>>>> 5f7b8ef7371d5839f326f56d498683d1e7daaa39
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -61,5 +70,9 @@ group :test do
   gem 'chromedriver-helper'
 end
 
+<<<<<<< HEAD
   # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+=======
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+>>>>>>> 5f7b8ef7371d5839f326f56d498683d1e7daaa39
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

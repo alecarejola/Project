@@ -10,12 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2019_06_19_131823) do
+=======
+ActiveRecord::Schema.define(version: 2019_06_13_022346) do
+>>>>>>> 5f7b8ef7371d5839f326f56d498683d1e7daaa39
 
   create_table "posts", force: :cascade do |t|
     t.string "title"
     t.string "post"
+<<<<<<< HEAD
     t.integer "user_id"
+=======
+>>>>>>> 5f7b8ef7371d5839f326f56d498683d1e7daaa39
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

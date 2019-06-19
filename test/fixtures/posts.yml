@@ -3,9 +3,15 @@
 one:
   title: MyString
   post: MyString
+<<<<<<< HEAD
   user_id: 1
+=======
+>>>>>>> 5f7b8ef7371d5839f326f56d498683d1e7daaa39
 
 two:
   title: MyString
   post: MyString
+<<<<<<< HEAD
   user_id: 1
+=======
+>>>>>>> 5f7b8ef7371d5839f326f56d498683d1e7daaa39

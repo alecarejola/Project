@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   resources :posts
   resources :users
   resources :usertypes
@@ -12,4 +13,11 @@ Rails.application.routes.draw do
 
   #logout routes
   get "logout", to: "pages#logout"
+=======
+  resources :users
+  resources :usertypes
+  resources :posts
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  #get "/#", to: "/posts"
+>>>>>>> 5f7b8ef7371d5839f326f56d498683d1e7daaa39
 end
